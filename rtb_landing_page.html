@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Player Agency</title>
+  <meta name="description" content="Agency specialised in football player representation" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: "#1e40af",
+            secondary: "#1e3a8a",
+            footerblue: "#3c506a"
+          }
+        }
+      }
+    };
+  </script>
+</head>
+<body class="min-h-screen bg-gray-50 scroll-smooth">
+
+  <!-- Hero Section -->
+  <section class="relative bg-gray-900 overflow-hidden" id="home">
+    <div class="w-full h-auto sm:h-[80vh] relative">
+      <img alt="Hero Background" src="images/rtb_group_final.png"
+           class="w-full h-full object-contain sm:object-cover opacity-80" />
+      <div class="absolute inset-0 bg-black/40"></div>
+      <div class="absolute inset-0 flex flex-col items-center justify-center text-center px-4 z-10">
+        <h1 class="text-2xl sm:text-4xl md:text-5xl font-bold text-white mb-4">RAISE THE BAR</h1>
+        <p class="text-sm sm:text-base md:text-lg text-white max-w-xl">"Excellence is not a skill, it's an attitude."</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Under Development -->
+  <section class="py-16 px-4">
+    <div class="max-w-4xl mx-auto text-center">
+      <div class="bg-white p-8 rounded-lg shadow-md">
+        <i class="fas fa-tools text-5xl text-footerblue mb-6"></i>
+        <h2 class="text-3xl font-bold text-gray-800 mb-4">Site Under Development</h2>
+        <p class="text-lg text-gray-600 mb-6">
+          We are working to provide you with the best experience. In the meantime, you can download the factsheets of our represented players.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Factsheets -->
+ <section class="py-12 px-4 bg-white">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Player Factsheets</h2>
+
+    <div class="flex flex-wrap justify-center gap-8">
+
+      <!-- André Paulo -->
+      <div class="w-full sm:w-[48%] lg:w-[22%] max-w-sm">
+        <div class="bg-gray-50 rounded-2xl shadow-lg hover:shadow-xl transition duration-300 text-center h-full flex flex-col justify-between py-6">
+          <div>
+            <div class="flex justify-center mb-4">
+              <img src="images/AP.jpg" alt="André Paulo" class="w-32 h-32 rounded-full object-cover shadow-md" />
+            </div>
+            <div class="px-4 space-y-1">
+              <h3 class="text-xl font-semibold text-gray-800 truncate" title="André Paulo">André Paulo</h3>
+              <p class="text-gray-600 text-sm truncate" title="Goalkeeper | 28 years old">Goalkeeper | 28 years old</p>
+            </div>
+          </div>
+          <div class="mt-6 px-4">
+            <a href="fact_sheets_site/andre-paulo.pdf" download class="inline-block bg-footerblue text-white text-sm px-4 py-2 rounded hover:bg-[#32445d] transition">
+              <i class="fas fa-download mr-2"></i>Download Factsheet
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- André Serra -->
+      <div class="w-full sm:w-[48%] lg:w-[22%] max-w-sm">
+        <div class="bg-gray-50 rounded-2xl shadow-lg hover:shadow-xl transition duration-300 text-center h-full flex flex-col justify-between py-6">
+          <div>
+            <div class="flex justify-center mb-4">
+              <img src="images/AS.jpg" alt="André Serra" class="w-32 h-32 rounded-full object-cover shadow-md" />
+            </div>
+            <div class="px-4 space-y-1">
+              <h3 class="text-xl font-semibold text-gray-800 truncate" title="André Serra">André Serra</h3>
+              <p class="text-gray-600 text-sm truncate" title="Centre-Back | 26 years old">Centre-Back | 26 years old</p>
+            </div>
+          </div>
+          <div class="mt-6 px-4">
+            <a href="fact_sheets_site/andre-serra.pdf" download class="inline-block bg-footerblue text-white text-sm px-4 py-2 rounded hover:bg-[#32445d] transition">
+              <i class="fas fa-download mr-2"></i>Download Factsheet
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Diogo Sousa -->
+      <div class="w-full sm:w-[48%] lg:w-[22%] max-w-sm">
+        <div class="bg-gray-50 rounded-2xl shadow-lg hover:shadow-xl transition duration-300 text-center h-full flex flex-col justify-between py-6">
+          <div>
+            <div class="flex justify-center mb-4">
+              <img src="images/DS.jpeg" alt="Diogo Sousa" class="w-32 h-32 rounded-full object-cover shadow-md" />
+            </div>
+            <div class="px-4 space-y-1">
+              <h3 class="text-xl font-semibold text-gray-800 truncate" title="Diogo Sousa">Diogo Sousa</h3>
+              <p class="text-gray-600 text-sm truncate" title="Goalkeeper | 26 years old">Goalkeeper | 26 years old</p>
+            </div>
+          </div>
+          <div class="mt-6 px-4">
+            <a href="fact_sheets_site/diogo-sousa.pdf" download class="inline-block bg-footerblue text-white text-sm px-4 py-2 rounded hover:bg-[#32445d] transition">
+              <i class="fas fa-download mr-2"></i>Download Factsheet
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Henrique Pinto Coelho -->
+      <div class="w-full sm:w-[48%] lg:w-[22%] max-w-sm">
+        <div class="bg-gray-50 rounded-2xl shadow-lg hover:shadow-xl transition duration-300 text-center h-full flex flex-col justify-between py-6">
+          <div>
+            <div class="flex justify-center mb-4">
+              <img src="images/HC.png" alt="Henrique Pinto Coelho" class="w-32 h-32 rounded-full object-cover shadow-md" />
+            </div>
+            <div class="px-4 space-y-1">
+              <h3 class="text-xl font-semibold text-gray-800 truncate" title="Henrique Pinto Coelho">Henrique Pinto Coelho</h3>
+              <p class="text-gray-600 text-sm truncate" title="Goalkeeper | 19 years old">Goalkeeper | 19 years old</p>
+            </div>
+          </div>
+          <div class="mt-6 px-4">
+            <a href="fact_sheets_site/henrique-pinto-coelho.pdf" download class="inline-block bg-footerblue text-white text-sm px-4 py-2 rounded hover:bg-[#32445d] transition">
+              <i class="fas fa-download mr-2"></i>Download Factsheet
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Nuno Teixeira -->
+      <div class="w-full sm:w-[48%] lg:w-[22%] max-w-sm">
+        <div class="bg-gray-50 rounded-2xl shadow-lg hover:shadow-xl transition duration-300 text-center h-full flex flex-col justify-between py-6">
+          <div>
+            <div class="flex justify-center mb-4">
+              <img src="images/NT.png" alt="Nuno Teixeira" class="w-32 h-32 rounded-full object-cover shadow-md" />
+            </div>
+            <div class="px-4 space-y-1">
+              <h3 class="text-xl font-semibold text-gray-800 truncate" title="Nuno Teixeira">Nuno Teixeira</h3>
+              <p class="text-gray-600 text-sm truncate" title="Centre-Back | 22 years old">Centre-Back | 22 years old</p>
+            </div>
+          </div>
+          <div class="mt-6 px-4">
+            <a href="fact_sheets_site/nuno-teixeira.pdf" download class="inline-block bg-footerblue text-white text-sm px-4 py-2 rounded hover:bg-[#32445d] transition">
+              <i class="fas fa-download mr-2"></i>Download Factsheet
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Paulo Lima -->
+      <div class="w-full sm:w-[48%] lg:w-[22%] max-w-sm">
+        <div class="bg-gray-50 rounded-2xl shadow-lg hover:shadow-xl transition duration-300 text-center h-full flex flex-col justify-between py-6">
+          <div>
+            <div class="flex justify-center mb-4">
+              <img src="images/PL.jpg" alt="Paulo Lima" class="w-32 h-32 rounded-full object-cover shadow-md" />
+            </div>
+            <div class="px-4 space-y-1">
+              <h3 class="text-xl font-semibold text-gray-800 truncate" title="Paulo Lima">Paulo Lima</h3>
+              <p class="text-gray-600 text-sm truncate" title="Defensive Midfielder | 26 years old">Defensive Midfielder | 26 years old</p>
+            </div>
+          </div>
+          <div class="mt-6 px-4">
+            <a href="fact_sheets_site/paulo-lima.pdf" download class="inline-block bg-footerblue text-white text-sm px-4 py-2 rounded hover:bg-[#32445d] transition">
+              <i class="fas fa-download mr-2"></i>Download Factsheet
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Zé Simão -->
+      <div class="w-full sm:w-[48%] lg:w-[22%] max-w-sm">
+        <div class="bg-gray-50 rounded-2xl shadow-lg hover:shadow-xl transition duration-300 text-center h-full flex flex-col justify-between py-6">
+          <div>
+            <div class="flex justify-center mb-4">
+              <img src="images/ZS.jpg" alt="Zé Simão" class="w-32 h-32 rounded-full object-cover shadow-md" />
+            </div>
+            <div class="px-4 space-y-1">
+              <h3 class="text-xl font-semibold text-gray-800 truncate" title="Zé Simão">Zé Simão</h3>
+              <p class="text-gray-600 text-sm truncate" title="Centre-Back | 25 years old">Centre-Back | 25 years old</p>
+            </div>
+          </div>
+          <div class="mt-6 px-4">
+            <a href="fact_sheets_site/ze-simao.pdf" download class="inline-block bg-footerblue text-white text-sm px-4 py-2 rounded hover:bg-[#32445d] transition">
+              <i class="fas fa-download mr-2"></i>Download Factsheet
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="text-white py-10 px-4 bg-[#3c506a]" id="contact">
+    <div class="container mx-auto px-4 sm:px-6 max-w-7xl">
+      <div class="text-center mb-12">
+        <span class="font-semibold tracking-wider opacity-80">GET IN TOUCH</span>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-10 sm:gap-x-8">
+        <div class="hidden sm:block">
+          <h3 class="text-lg sm:text-xl font-bold mb-3">RAISE THE BAR</h3>
+          <p class="mb-4 text-sm leading-relaxed">
+            Elevating football careers to new heights<br />
+            through comprehensive management and support.
+          </p>
+          <div class="flex items-center space-x-2">
+            <a class="hover:text-gray-300 text-xl sm:inline hidden" href="https://www.instagram.com/raisethebar_football/" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+        <div class="sm:ml-auto">
+          <h4 class="font-bold mb-3">Contact Us</h4>
+          <ul class="space-y-3 text-sm leading-relaxed">
+            <li class="flex items-start space-x-2">
+              <i class="fas fa-map-marker-alt mt-1"></i>
+              <span>Avenida da Trindade 1, 3 Drt, 1200-301 Lisbon, Portugal</span>
+            </li>
+            <li class="flex items-center space-x-2">
+              <i class="fas fa-phone-alt"></i>
+              <span>+351 911 002 368</span>
+            </li>
+            <li class="flex items-center space-x-2">
+              <i class="fas fa-envelope"></i>
+              <span>agency@rtbfootball.com</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="text-center mt-8 text-sm text-white/80">
+        © 2025 Raise The Bar Football Agency. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
